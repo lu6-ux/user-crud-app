@@ -1,21 +1,13 @@
-# Dependencies
+# dependencies
 node_modules/
 
-# Environment variables
+# builds
+dist/
+.next/
+*.tsbuildinfo
+
+# environment files
 .env
 .env.local
-.env.*.local
-
-# Next.js
-.next/
-
-# NestJS build
-dist/
-
-# Logs
-*.log
-npm-debug.log*
-
-# OS
-.DS_Store
-Thumbs.db
+.env.production
+.env.development
